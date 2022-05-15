@@ -1,0 +1,148 @@
+#nav-ul {
+    background-color: #f7f7f7;
+    padding: 13px 7.5%;
+}
+
+ul h4 {
+    margin: auto 25vw;
+    font-size: 1.3em;
+}
+
+
+.nav-item a {
+    color: black;
+}
+
+a.nav-link {
+    padding-right: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+nav {
+    border: 1px solid #ebebeb;
+    border-left: hidden;
+    border-right: hidden;
+    padding: 0 7.5%;
+    height: 80px;
+}
+
+nav input {
+    position: relative;
+    left: 60px;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+    width: 350px;
+    height: 48px;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-div i {
+    margin: auto 1vw;
+}
+
+.nav-div p {
+    margin: auto;
+}
+
+
+.navbar a {
+    color: #ff385c;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.icon-bar {
+    padding: 25px 7.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.icon-bar p {
+    margin: 0;
+}
+
+.icon-bar button {
+    background-color: white;
+    height: 48px;
+    border-color: #ddd;
+    border-radius: 15%;
+    width: 90px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.card-img-top {
+    border-radius: 10%;
+}
+
+.card {
+    border: none;
+}
+
+.card-head {
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-text {
+    margin: 0;
+    color: #717171;
+
+}
+
+.card-foot {
+    margin: 0.5em 0 0 0;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 0 7.5%;
+    left: 0px;
+    bottom: 0px;
+    border-top: solid 1px #ddd;
+    height: 47px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #222;
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+
+}
+
+footer p {
+    margin: 0;
+}
